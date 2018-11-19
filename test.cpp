@@ -36,5 +36,11 @@ TEST_F(Kwadratt,test2){
     ASSERT_EQ(b_obj.miejscezerowe(0),-1);
 
 }
+TEST_F(Kwadratt,test3){
 
+
+
+    EXPECT_THROW(c_obj.miejscezerowe(0),myexception);
+
+}
 
