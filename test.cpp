@@ -29,6 +29,12 @@ TEST_F(Kwadratt,test1){
     ASSERT_EQ(a_obj.miejscezerowe(1),-2);
 
 }
+TEST_F(Kwadratt,test2){
 
+
+
+    ASSERT_EQ(b_obj.miejscezerowe(0),-1);
+
+}
 
 
