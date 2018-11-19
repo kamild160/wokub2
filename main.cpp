@@ -12,6 +12,20 @@ int main() {
 	Root h(-6.0, 1.0, -1.0);
 	
 
+	try {
+		cout << "Delta = 0" << std::endl;
+		f.roots(1);
+		cout << endl;
+
+		cout << "Delta > 0" << std::endl;
+		j.roots(1);
+		j.roots(2);
+		cout << endl;
+
+		cout << "Delta < 0" << std::endl;
+		h.roots(1);
+	}
 	
+
 	std::cin.get();
 }
