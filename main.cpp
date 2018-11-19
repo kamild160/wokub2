@@ -25,7 +25,9 @@ int main() {
 		cout << "Delta < 0" << std::endl;
 		h.roots(1);
 	}
-	
+	catch (string s) {
+		cout << s << endl;
+	}
 
 	std::cin.get();
 }
